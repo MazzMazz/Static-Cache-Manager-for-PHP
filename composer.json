@@ -1,0 +1,26 @@
+{
+    "name": "mazz/php-global-static-cache-manager",
+    "description": "A global static cache manager for php",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Mathias Maier",
+            "email": "mail@m-maier.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "StaticCacheManager": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "psr/simple-cache": "^1.0",
+        "psr/container": "^1.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0@dev"
+    }
+}
