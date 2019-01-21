@@ -10,10 +10,9 @@
             "email": "mail@m-maier.com"
         }
     ],
+    
     "autoload": {
-        "psr-0": {
-            "StaticCacheManager": "src/"
-        }
+        "psr-4": { "StaticCacheManager\\" : "src/" }
     },
     "require": {
         "php": ">=5.3.0",
