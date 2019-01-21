@@ -1,7 +1,7 @@
 {
     "name": "mazz/global-static-cache-manager",
     "description": "A global static cache manager for php",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {
