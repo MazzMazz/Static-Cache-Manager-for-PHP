@@ -1,7 +1,6 @@
 {
     "name": "mazz/global-static-cache-manager",
     "description": "A global static cache manager for php",
-    "type": "composer-plugin",
     "version": "1.0.0",
     "license": "MIT",
     "authors": [
