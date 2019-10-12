@@ -31,6 +31,14 @@ class StaticCache implements CacheInterface
     }
 
     /**
+     * @return array
+     */
+    public function getAll()
+    {
+        return $this->cache;
+    }
+
+    /**
      * @param string $key
      * @param mixed  $value
      * @param null   $ttl
